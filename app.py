@@ -88,15 +88,16 @@ class HybridChatbot:
                     },
                     {
                         "tag": "admissions",
-                        "patterns": [
-                            "admission", "admission requirements", "how to apply",
-                            "admission process", "eligibility", "admission criteria"
-                        ],
-                        "responses": [
-                            "For admissions, you typically need your 12th marksheet, transfer certificate, and completed application form. Minimum 60% marks in 12th grade is required.",
-                            "The admission process involves submitting your 12th marksheet, transfer certificate, and online application. Specific requirements may vary by course.",
-                            "Admission requirements include 12th grade marksheet, transfer certificate, and completed application. Minimum 60% in 12th grade is generally required."
-                        ]
+            "patterns": [
+                "admission", "admission requirements", "how to apply",
+                "admission process", "eligibility", "admission criteria",
+                "how to get admission", "admission procedure", "apply for college",
+                "admission form", "application process"
+            ],
+            "responses": [
+                "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
+    
+            ]
                     },
                     {
                         "tag": "courses",
@@ -105,9 +106,7 @@ class HybridChatbot:
                             "available courses", "degree programs", "study programs"
                         ],
                         "responses": [
-                            "We offer B.Tech in Computer Science, Mechanical, Electrical, and Civil Engineering. Also BBA, BCA, MBA, and M.Tech programs.",
-                            "Available courses include B.Tech (CSE, ME, EE, CE), BBA, BCA, MBA, and M.Tech programs.",
-                            "Our college offers B.Tech, BBA, BCA, MBA, and M.Tech programs across various specializations."
+                            "Our college offers BE (CSE, ISE, ME, EE, CE, BT), BBA with specializations in Marketing, Finance, Human Resource Management, and Business Analytics, BCA with specializations in Cloud Computing, Data Science, Artificial Intelligence, and Web Development, along with MBA and M.Tech programs across various specializations."
                         ]
                     }
                 ]

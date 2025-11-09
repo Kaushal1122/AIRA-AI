@@ -8,10 +8,10 @@
                 "hi there", "greetings", "how are you", "what's going on"
             ],
             "responses": [
-                "Hello! Welcome to AIRA College Assistant. How can I help you today?",
-                "Hi there! I'm AIRA, your college information assistant.",
-                "Greetings! How may I assist you with college-related queries?",
-                "Hello! I'm here to help with college information. What do you need to know?"
+                "Hello and welcome to AIRA, the official assistant of Acharya Institute of Technology. How may I assist you today",
+                "Good day, this is AIRA, your virtual assistant from Acharya Institute of Technology, Bengaluru.",
+                "Greetings from AIRA, your official guide to Acharya Institute of Technology.",
+                "Hello, I am AIRA, here to assist you with information related to Acharya Institute of Technology."
             ]
         },
         {
@@ -22,10 +22,10 @@
                 "see you later", "good night", "talk to you later"
             ],
             "responses": [
-                "Goodbye! Feel free to ask if you have more questions.",
-                "See you later! Don't hesitate to return if you need assistance.",
-                "Have a great day! Remember, I'm here to help with college information.",
-                "Goodbye! Stay informed and do well in your academic journey."
+                "Goodbye and thank you for connecting with Acharya Institute of Technology.",
+                "See you later and thank you for your interest in Acharya Institute of Technology.",
+                "Have a great day ahead. We look forward to assisting you again.",
+                "Goodbye and stay connected with Acharya Institute of Technology for future updates."
             ]
         },
         {
@@ -36,10 +36,10 @@
                 "what are you", "who is this"
             ],
             "responses": [
-                "I'm AIRA - Artificial Intelligence Response Assistant, your college chatbot!",
-                "You can call me AIRA. I'm here to help with college information and FAQs.",
-                "I'm AIRA, your virtual college assistant. How can I help you today?",
-                "I'm AIRA, an AI assistant designed to help students with college information."
+                "I am AIRA, the Artificial Intelligence Response Assistant for Acharya Institute of Technology.",
+                "You can call me AIRA. I assist with all academic and campus related queries for Acharya Institute of Technology.",
+                "My name is AIRA. I am a virtual assistant developed to guide students and visitors about Acharya Institute of Technology, Bengaluru.",
+                "I am AIRA, the digital assistant designed to help with information related to Acharya Institute of Technology."
             ]
         },
         {
@@ -50,10 +50,10 @@
                 "what help can you provide", "what support do you offer"
             ],
             "responses": [
-                "I can help you with college information like admissions, courses, fees, contact details, and general FAQs.",
-                "I'm here to assist with college-related queries including admission procedures, course details, fee structure, and campus information.",
-                "As your college assistant, I can provide information about admissions, courses, fees, campus facilities, and more!",
-                "I specialize in college FAQs - ask me about admissions, programs, fees, campus life, or any college-related topic."
+                "I can provide detailed information about admissions, courses, fees, placements, and campus facilities at Acharya Institute of Technology.",
+                "I assist students, parents, and visitors by providing accurate information about Acharya Institute of Technology including eligibility criteria, programs, and contact details.",
+                "I am here to guide you through the admission process, academic programs, fee structure, and placement opportunities at Acharya Institute of Technology.",
+                "My purpose is to provide verified and up to date information about Acharya Institute of Technology, Bengaluru."
             ]
         },
         {
@@ -64,10 +64,10 @@
                 "grateful", "appreciate your help"
             ],
             "responses": [
-                "You're welcome! Happy to help.",
-                "Glad I could assist you!",
-                "You're welcome! Let me know if you need anything else.",
-                "My pleasure! Feel free to ask more questions."
+                "You are welcome. I am glad I could assist you.",
+                "My pleasure. Let me know if you need further information about Acharya Institute of Technology.",
+                "You are welcome. Always here to provide accurate guidance and support.",
+                "Happy to help. Feel free to ask more questions regarding Acharya Institute of Technology."
             ]
         },
         {
@@ -79,10 +79,7 @@
                 "admission form", "application process"
             ],
             "responses": [
-                "For admissions, you typically need your 12th marksheet, transfer certificate, and completed application form. Minimum 60% marks in 12th grade is required.",
-                "The admission process involves submitting your 12th marksheet, transfer certificate, and online application. Specific requirements may vary by course.",
-                "Admission requirements include 12th grade marksheet, transfer certificate, and completed application. Minimum 60% in 12th grade is generally required.",
-                "To apply: 1) Submit 12th marksheet 2) Fill online application 3) Provide transfer certificate 4) Meet minimum 60% criteria."
+                "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
             ]
         },
         {
@@ -94,10 +91,7 @@
                 "educational programs", "academic courses"
             ],
             "responses": [
-                "We offer B.Tech in Computer Science, Mechanical, Electrical, and Civil Engineering. Also BBA, BCA, MBA, and M.Tech programs.",
-                "Available courses include B.Tech (CSE, ME, EE, CE), BBA, BCA, MBA, and M.Tech programs.",
-                "Our college offers B.Tech, BBA, BCA, MBA, and M.Tech programs across various specializations.",
-                "Programs available: B.Tech in 4 engineering streams, BBA, BCA at undergraduate level, and MBA, M.Tech at postgraduate level."
+                "Our college offers BE (CSE, ISE, ME, EE, CE, BT), BBA with specializations in Marketing, Finance, Human Resource Management, and Business Analytics, BCA with specializations in Cloud Computing, Data Science, Artificial Intelligence, and Web Development, along with MBA and M.Tech programs across various specializations."
             ]
         },
         {
@@ -108,10 +102,10 @@
                 "fee payment", "annual fees", "semester fees"
             ],
             "responses": [
-                "B.Tech annual fee: ₹1,20,000 | BBA/BCA: ₹80,000 | MBA: ₹1,50,000 | Hostel: ₹60,000 additional per year.",
-                "Fee structure: B.Tech - ₹1.2L/year, BBA/BCA - ₹80K/year, MBA - ₹1.5L/year. Hostel fee is ₹60K/year extra.",
-                "Annual fees: Engineering programs ₹1,20,000, Management ₹80,000-1,50,000. Hostel accommodation ₹60,000 per year.",
-                "Course fees: B.Tech ₹1.2L, BBA/BCA ₹80K, MBA ₹1.5L per year. Separate hostel charges apply."
+                "The annual fee for the Bachelor of Engineering program is approximately 2.7 lakh rupees per year. The fee for MBA is around 1.5 lakh rupees, MCA about 1.2 lakh rupees, and M.Tech about 1.25 lakh rupees. Hostel accommodation costs approximately 60000 rupees per year.",
+                "Fee structure is as follows Bachelor of Engineering 2.7 lakh per year, MBA 1.5 lakh per year, MCA 1.2 lakh per year, and M.Tech 1.25 lakh per year. Hostel charges are approximately 60000 rupees per year.",
+                "The annual fee at Acharya Institute of Technology varies depending on the program. Engineering programs cost around 2.7 lakh rupees per year while postgraduate programs range between 1.2 lakh and 1.5 lakh rupees annually.",
+                "Course fees at AIT are B.E. 2.7 lakh per year, MBA 1.5 lakh per year, MCA 1.2 lakh per year, and M.Tech 1.25 lakh per year. Hostel and mess charges are extra."
             ]
         },
         {
@@ -122,10 +116,93 @@
                 "phone", "mobile number", "office number", "location"
             ],
             "responses": [
-                "College contact: +91-XXXXXXXXXX | Email: info@college.edu | Address: Education City, Sector 62, Noida",
-                "You can reach us at +91-XXXXXXXXXX during office hours (9 AM-5 PM, Mon-Sat). Email: info@college.edu",
-                "Contact: Phone +91-XXXXXXXXXX, Email info@college.edu. Address: Education City, Knowledge Park, Noida",
-                "Reach us at +91-XXXXXXXXXX or info@college.edu. Campus: Education City, Sector 62, Noida, UP"
+                "You can reach Acharya Institute of Technology at Phone plus91 74066 44449 or plus91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Acharya PO Soladevanahalli Bengaluru 560107 Karnataka India.",
+                "Contact details are as follows Phone plus91 74066 44449 or plus91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka India.",
+                "For any enquiries contact Acharya Institute of Technology at plus91 74066 44449 or plus91 97317 97677 or email admissions@acharya.ac.in The campus is located at Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka."
+            ]
+        },
+        {
+            "tag": "about_college",
+            "patterns": [
+                "tell me about acharya institute of technology",
+                "about the college",
+                "describe acharya institute of technology",
+                "give information about ait",
+                "what is acharya institute of technology",
+                "college overview",
+                "about ait college",
+                "details of acharya institute of technology",
+                "acharya institute of technology information",
+                "background of the college"
+            ],
+            "responses": [
+                "Acharya Institute of Technology, established in 2000, is one of the top engineering colleges in Bengaluru. It is affiliated with Visvesvaraya Technological University, Belagavi, and approved by AICTE, New Delhi. The college offers state of the art infrastructure, highly qualified faculty, and a vibrant campus life across a 120 acre campus.",
+                "Acharya Institute of Technology is a leading institution under Acharya Institutes, offering quality education in engineering, management, and technology. It is located in Soladevanahalli, Bengaluru, and is affiliated with VTU Belagavi.",
+                "Founded in 2000, Acharya Institute of Technology is a premier technical institute that provides undergraduate and postgraduate programs with modern facilities and industry focused learning.",
+                "AIT Bengaluru is well known for its academic excellence, research driven programs, and global exposure opportunities for students."
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "placement record of ait",
+                "how are placements at acharya institute of technology",
+                "placement statistics",
+                "which companies visit the campus",
+                "highest package in acharya institute of technology",
+                "average salary package at ait",
+                "acharya institute of technology recruiters",
+                "what about job opportunities",
+                "campus placement details",
+                "placement process information"
+            ],
+            "responses": [
+                "Acharya Institute of Technology has a strong placement record with top recruiters like Infosys, Wipro, TCS, Accenture, IBM, Capgemini, and Tech Mahindra. The highest package offered is around 15 lakh rupees per annum and the average package is approximately 4 to 5 lakh rupees per annum.",
+                "AIT maintains an excellent placement history with reputed companies visiting the campus every year. Average placements range between 4 to 5 LPA with the highest reaching up to 15 LPA.",
+                "Leading organizations such as Infosys, Accenture, IBM, and Wipro recruit students from Acharya Institute of Technology. The placement cell also provides training in communication, aptitude, and technical skills.",
+                "The placement department at AIT ensures industry readiness of students by organizing workshops, internships, and placement drives with leading multinational companies."
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "hostel facilities at acharya institute of technology",
+                "does ait have hostel",
+                "college infrastructure details",
+                "facilities available in college",
+                "campus amenities",
+                "hostel for boys and girls",
+                "library and wifi in acharya institute",
+                "transportation facilities of the college",
+                "canteen and gym details",
+                "college infrastructure information"
+            ],
+            "responses": [
+                "Acharya Institute of Technology provides excellent hostel facilities for both boys and girls with 24 hour security, WiFi connectivity, and hygienic food. The campus includes a modern library, sports complex, gym, cafeteria, medical facilities, and transportation services.",
+                "AIT offers separate hostels for male and female students with comfortable rooms and all basic amenities. The college also provides WiFi enabled classrooms, laboratories, and a well equipped library.",
+                "The campus of Acharya Institute of Technology features state of the art infrastructure with hostels, laboratories, digital classrooms, canteens, gym, and transportation facilities.",
+                "AIT ensures a safe and convenient environment for all students with its residential hostels, library, WiFi access, sports complex, and dining facilities."
+            ]
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+                "campus life at acharya institute of technology",
+                "student activities in ait",
+                "college fests in acharya institute",
+                "clubs and societies",
+                "acharya habba details",
+                "student clubs at ait",
+                "college events and celebrations",
+                "what are the extracurricular activities",
+                "culture of acharya institute of technology",
+                "life at acharya institute of technology"
+            ],
+            "responses": [
+                "Campus life at Acharya Institute of Technology is vibrant and dynamic with various student clubs, technical societies, and cultural activities. The annual fest Acharya Habba is one of the largest intercollegiate festivals in Bengaluru.",
+                "AIT promotes holistic development through student organizations such as coding clubs, music and dance clubs, sports teams, and cultural committees.",
+                "Students at Acharya Institute of Technology actively participate in workshops, seminars, hackathons, and the grand Acharya Habba event held every year.",
+                "The campus encourages extracurricular participation and creativity with numerous clubs and events that make student life engaging and memorable."
             ]
         }
     ]
