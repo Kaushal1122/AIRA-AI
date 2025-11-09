@@ -88,16 +88,15 @@ class HybridChatbot:
                     },
                     {
                         "tag": "admissions",
-            "patterns": [
-                "admission", "admission requirements", "how to apply",
-                "admission process", "eligibility", "admission criteria",
-                "how to get admission", "admission procedure", "apply for college",
-                "admission form", "application process"
-            ],
-            "responses": [
-                "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
-    
-            ]
+                        "patterns": [
+                            "admission", "admission requirements", "how to apply",
+                            "admission process", "eligibility", "admission criteria",
+                            "how to get admission", "admission procedure", "apply for college",
+                            "admission form", "application process"
+                        ],
+                        "responses": [
+                            "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
+                        ]
                     },
                     {
                         "tag": "courses",
