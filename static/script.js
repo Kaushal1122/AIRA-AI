@@ -1,5 +1,14 @@
 const USER_IMAGE_URL = window.USER_PROFILE_IMAGE || '/static/assets/default-user.webp';
 
+
+function makeLinksClickable(text) {
+    const urlPattern = /(https?:\/\/[^\s]+)/g;
+    return text.replace(
+        urlPattern,
+        '<a href="$1" target="_blank" style="color:#007bff; text-decoration:underline;">$1</a>'
+    );
+}
+
 class AIRAChatbot {
     constructor() {
         this.chatMessages = document.getElementById('chatMessages');
@@ -99,7 +108,8 @@ addMessage(content, sender) {
     contentDiv.className = 'message-content';
 
     const contentParagraph = document.createElement('p');
-    contentParagraph.textContent = content;
+    contentParagraph.innerHTML = makeLinksClickable(content);
+
 
     contentDiv.appendChild(contentParagraph);
     messageDiv.appendChild(avatarDiv);

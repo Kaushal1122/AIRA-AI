@@ -99,11 +99,11 @@
             "patterns": [
                 "fees", "fee structure", "tuition fees", "course fees",
                 "how much does it cost", "fee details", "what are the fees",
-                "fee payment", "annual fees", "semester fees"
+                 "annual fees", "semester fees"
             ],
             "responses": [
-                "The annual fee for the Bachelor of Engineering program is approximately 2.7 lakh rupees per year. The fee for MBA is around 1.5 lakh rupees, MCA about 1.2 lakh rupees, and M.Tech about 1.25 lakh rupees. Hostel accommodation costs approximately 60000 rupees per year.",
-                "Fee structure is as follows Bachelor of Engineering 2.7 lakh per year, MBA 1.5 lakh per year, MCA 1.2 lakh per year, and M.Tech 1.25 lakh per year. Hostel charges are approximately 60000 rupees per year.",
+                "The annual fee for the Bachelor of Engineering program is approximately 2.7 lakh rupees per year. The fee for MBA is around 1.5 lakh rupees.",
+                "Fee structure is as follows Bachelor of Engineering 2.7 lakh per year, MBA 1.5 lakh per year, MCA 1.2 lakh per year, and M.Tech 1.25 lakh per year.",
                 "The annual fee at Acharya Institute of Technology varies depending on the program. Engineering programs cost around 2.7 lakh rupees per year while postgraduate programs range between 1.2 lakh and 1.5 lakh rupees annually.",
                 "Course fees at AIT are B.E. 2.7 lakh per year, MBA 1.5 lakh per year, MCA 1.2 lakh per year, and M.Tech 1.25 lakh per year. Hostel and mess charges are extra."
             ]
@@ -162,7 +162,7 @@
             ],
             "responses": [
                 "Acharya Institute of Technology has a strong placement record with top recruiters like Infosys, Wipro, TCS, Accenture, IBM, Capgemini, and Tech Mahindra. The highest package offered is around 15 lakh rupees per annum and the average package is approximately 4 to 5 lakh rupees per annum.",
-                "AIT maintains an excellent placement history with reputed companies visiting the campus every year. Average placements range between 4 to 5 LPA with the highest reaching up to 15 LPA.",
+                "AIT has consistently achieved excellent placement results with companies such as Infosys, Accenture, Wipro, IBM, TCS, Capgemini, and Tech Mahindra recruiting students. The highest package recorded is 65 LPA, while the average package ranges between 4 to 5 LPA.",
                 "Leading organizations such as Infosys, Accenture, IBM, and Wipro recruit students from Acharya Institute of Technology. The placement cell also provides training in communication, aptitude, and technical skills.",
                 "The placement department at AIT ensures industry readiness of students by organizing workshops, internships, and placement drives with leading multinational companies."
             ]
@@ -186,6 +186,188 @@
                 "AIT offers separate hostels for male and female students with comfortable rooms and all basic amenities. The college also provides WiFi enabled classrooms, laboratories, and a well equipped library.",
                 "The campus of Acharya Institute of Technology features state of the art infrastructure with hostels, laboratories, digital classrooms, canteens, gym, and transportation facilities.",
                 "AIT ensures a safe and convenient environment for all students with its residential hostels, library, WiFi access, sports complex, and dining facilities."
+            ]
+        },
+        {
+            "tag": "highest_placement",
+            "patterns": [
+                "what is the highest placement",
+                "highest package in ait",
+                "highest ctc",
+                "record placement",
+                "what is the highest salary",
+                "top package offered",
+                "maximum placement in acharya",
+                "highest package this year",
+                "which company gives highest salary"
+            ],
+            "responses": [
+                "The highest placement package at Acharya Institute of Technology is 65 lakh rupees per annum, offered by top multinational companies.",
+                "AIT has recorded a highest salary package of 65 LPA in recent placement drives, reflecting strong industry connections and student performance.",
+                "The maximum CTC offered to an AIT student is 65 lakhs per annum, making it one of the notable high-value placements."
+            ]
+        },
+        {
+            "tag": "hod_cse",
+            "patterns": [
+                "hod name",
+                "hod cse",
+                "cse hod",
+                "who is the hod of cse department",
+                "name of cse hod",
+                "hod of computer science department",
+                "who is heading the cse department",
+                "cse department head",
+                "who is cse hod in ait",
+                "computer science hod name",
+                "cse head of department",
+                "who leads the cse department",
+                "head of cse department",
+                "who is cse department hod",
+                "cse department incharge"
+            ],
+            "responses": [
+                "The Head of the Department for Computer Science and Engineering at Acharya Institute of Technology is Dr. Kala Venugopal.",
+                "Dr. Kala Venugopal currently serves as the HOD of the CSE Department at AIT, recognized for her leadership and academic contributions.",
+                "The CSE Department at Acharya Institute of Technology is led by Dr. Kala Venugopal."
+            ]
+        },
+        {
+            "tag": "library_timings",
+            "patterns": [
+                "library timing",
+                "what are the library timings",
+                "library hours",
+                "when does the library open",
+                "is the library open today",
+                "library time on sunday",
+                "college library timing",
+                "ait library timing",
+                "timings of library",
+                "what time does library close",
+                "library opening time",
+                "library closing time"
+            ],
+            "responses": [
+                "The Acharya Institute of Technology Library operates from Monday to Saturday between 8:00 AM and 10:00 PM. On Sundays, the library functions from 8:00 AM to 4:00 PM. During festival days, timings may vary based on notifications issued by the administration.",
+                "Library hours are as follows: Monday to Saturday – 8:00 AM to 10:00 PM, Sunday – 8:00 AM to 4:00 PM. Timings on festival days may be adjusted by the college administration.",
+                "AIT Library remains open from 8:00 AM to 10:00 PM on weekdays and Saturdays, while on Sundays it is available from 8:00 AM to 4:00 PM. Festival day timings are subject to official updates."
+            ]
+        },
+        {
+            "tag": "wifi_availability",
+            "patterns": [
+                "is wifi available",
+                "wifi availability",
+                "does college have wifi",
+                "does ait have wifi",
+                "is wifi available in campus",
+                "do we get wifi",
+                "wifi in college",
+                "wifi facility",
+                "wifi in library",
+                "internet access",
+                "how to access wifi",
+                "wifi connection process",
+                "campus wifi",
+                "wifi"
+            ],
+            "responses": [
+                "Yes, WiFi is available throughout the Acharya Institute of Technology campus, including the library. Students must fill out the WiFi request form to receive their login credentials.",
+                "AIT provides campus-wide WiFi connectivity. Students can access it by submitting the WiFi form and obtaining authentication details from the IT department.",
+                "WiFi facilities are available across academic blocks, hostels, and the library. Access is given after completing the required WiFi form."
+            ]
+        },
+        {
+            "tag": "hostel_fees",
+            "patterns": [
+                "hostel fees",
+                "what is the hostel fee",
+                "hostel fee structure",
+                "how much is hostel fees",
+                "hostel charges",
+                "cost of hostel",
+                "fees for hostel",
+                "hostel price",
+                "mess and hostel fees",
+                "ait hostel fees",
+                "acharya hostel fees",
+                "hostel fee including mess",
+                "what is the cost of hostel in ait"
+            ],
+            "responses": [
+                "The hostel fees at Acharya Institute of Technology range from 1.10 lakh to 1.30 lakh per year. This includes mess facilities, laundry, hostel WiFi access, and medical assistance.",
+                "AIT hostel charges range between 1.10 lakh and 1.30 lakh annually. The fee covers mess, laundry, WiFi, and basic medical support.",
+                "Hostel fees vary from 1.10–1.30 lakh per year, inclusive of mess food, laundry services, WiFi connectivity, and medical assistance."
+            ]
+        },
+        {
+            "tag": "principal",
+            "patterns": [
+                "principal of college",
+                "who is the principal",
+                "name of principal",
+                "college principal",
+                "principal of ait",
+                "ait principal",
+                "who is principal of acharya institute of technology",
+                "head of the college",
+                "who is the college principal",
+                "current principal",
+                "principal name",
+                "principal of acharya",
+                "who heads the college"
+            ],
+            "responses": [
+                "The Principal of Acharya Institute of Technology is Dr. C. K. Marigowda.",
+                "Dr. C. K. Marigowda currently serves as the Principal of Acharya Institute of Technology.",
+                "Acharya Institute of Technology is headed by its Principal, Dr. C. K. Marigowda."
+            ]
+        },
+        {
+            "tag": "faculty",
+            "patterns": [
+                "faculty list",
+                "faculty details",
+                "faculty",
+                "teachers list",
+                "teaching staff",
+                "college faculty",
+                "faculty information",
+                "teachers in acharya",
+                "ait faculty",
+                "acharya faculty",
+                "cse faculty",
+                "ece faculty",
+                "who are the faculty",
+                "faculty members",
+                "faculty directory",
+                "staff list"
+            ],
+            "responses": [
+                "You can view the complete and updated faculty list of Acharya Institute of Technology at the official link: https://ait.ac.in/faculty.html",
+                "AIT provides a detailed department-wise faculty directory on the official website. Visit: https://ait.ac.in/faculty.html",
+                "For accurate and updated faculty information, please check the official AIT faculty page: https://ait.ac.in/faculty.html"
+            ]
+        },
+        {
+            "tag": "fee_payment",
+            "patterns": [
+                "how to pay fee",
+                "where to pay fees",
+                "where should i pay college fee",
+                "where i have to pay college fee",
+                "fee payment",
+                "pay fee",
+                "how to submit fee",
+                "college fee payment",
+                "fee payment process",
+                "how do i pay my fees"
+            ],
+            "responses": [
+                "College fees are paid through the official Acharya ERP application. You can download it from the Play Store here: https://play.google.com/store/apps/details?id=com.ait.acerp",
+                "You can pay your academic fees using the Acharya ERP app. Download here: https://play.google.com/store/apps/details?id=com.ait.acerp",
+                "Fee payments at AIT must be made through the Acharya ERP mobile app. Use the official Play Store link: https://play.google.com/store/apps/details?id=com.ait.acerp"
             ]
         },
         {

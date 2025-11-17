@@ -88,30 +88,30 @@ class HybridChatbot:
                     },
                     {
                         "tag": "admissions",
-            "patterns": [
-                "admission", "admission requirements", "how to apply",
-                "admission process", "eligibility", "admission criteria",
-                "how to get admission", "admission procedure", "apply for college",
-                "admission form", "application process"
-            ],
-            "responses": [
-                "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
-    
-            ]
+                        "patterns": [
+                            "admission", "admission requirements", "how to apply",
+                            "admission process", "eligibility", "admission criteria",
+                            "how to get admission", "admission procedure", "apply for college",
+                            "admission form", "application process"
+                        ],
+                            "responses": [
+                                "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
+                
+                        ]
                     },
                     {
-            "tag": "contact",
-            "patterns": [
-                "contact", "contact number", "phone number", "email",
-                "how to contact", "college address", "where are you located",
-                "phone", "mobile number", "office number", "location"
-            ],
-            "responses": [
-                "You can reach Acharya Institute of Technology at Phone +91 74066 44449 or +91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Acharya PO Soladevanahalli Bengaluru 560107 Karnataka India.",
-                "Contact details are as follows Phone +91 74066 44449 or +91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka India.",
-                "For any enquiries contact Acharya Institute of Technology at +91 74066 44449 or +91 97317 97677 or email admissions@acharya.ac.in The campus is located at Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka."
-            ]
-        },
+                        "tag": "contact",
+                        "patterns": [
+                            "contact", "contact number", "phone number", "email",
+                            "how to contact", "college address", "where are you located",
+                            "phone", "mobile number", "office number", "location"
+                        ],
+                        "responses": [
+                            "You can reach Acharya Institute of Technology at Phone +91 74066 44449 or +91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Acharya PO Soladevanahalli Bengaluru 560107 Karnataka India.",
+                            "Contact details are as follows Phone +91 74066 44449 or +91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka India.",
+                            "For any enquiries contact Acharya Institute of Technology at +91 74066 44449 or +91 97317 97677 or email admissions@acharya.ac.in The campus is located at Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka."
+                        ]
+                    },
                     {
                         "tag": "courses",
                         "patterns": [
@@ -179,6 +179,98 @@ class HybridChatbot:
         if user_input_clean in self.learned_responses:
             return self.learned_responses[user_input_clean]
         
+        # 🔥 Strong keyword-based routing for specific queries (like HOD)
+        hod_keywords = ["hod", "hod name", "cse hod", "department hod", "hod of cse", "head of cse"]
+        if any(keyword in user_input_clean for keyword in hod_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "hod_cse":
+                    return random.choice(intent["responses"])
+
+        # Strong keyword-based routing for Library Timings
+        library_keywords = ["library", "library timing", "library time", "library timings", "timing of library"]
+        if any(keyword in user_input_clean for keyword in library_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "library_timings":
+                    return random.choice(intent["responses"])
+                
+        wifi_keywords = ["wifi", "wi fi", "internet"]
+        if any(keyword in user_input_clean for keyword in wifi_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "wifi_availability":
+                    return random.choice(intent["responses"])
+
+        hostel_keywords = ["hostel fee", "hostel fees", "hostel charges", "hostel cost", "hostel price"]
+        if any(keyword in user_input_clean for keyword in hostel_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "hostel_fees":
+                    return random.choice(intent["responses"])
+
+        # Strong keyword-based routing for Principal
+        principal_keywords = [
+            "principal",
+            "principal name",
+            "college principal",
+            "who is the principal",
+            "ait principal",
+            "principal of college",
+            "principal of ait"
+        ]
+
+        if any(keyword in user_input_clean for keyword in principal_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "principal":
+                    return random.choice(intent["responses"])
+                
+        # Strong keyword-based routing for Faculty Information
+        faculty_keywords = [
+            "faculty",
+            "faculty list",
+            "faculty details",
+            "teaching staff",
+            "teachers",
+            "staff list",
+            "faculty members",
+            "faculty information",
+            "ait faculty"
+        ]
+
+        if any(keyword in user_input_clean for keyword in faculty_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "faculty":
+                    return random.choice(intent["responses"])
+
+        fee_payment_keywords = [
+            "pay fee", "fee payment", "submit fee", "where to pay",
+            "where should i pay", "pay college fee", "college fee payment",
+            "how to pay", "where i have to pay"
+        ]
+
+        if any(keyword in user_input_clean for keyword in fee_payment_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "fee_payment":
+                    return random.choice(intent["responses"])
+
+        # Strong keyword-based routing for Fee Structure
+        fees_keywords = [
+            "fees", 
+            "fee structure", 
+            "college fee",
+            "college fees",
+            "tuition fees",
+            "fee details",
+            "annual fees",
+            "course fees",
+            "semester fees",
+            "what is the fee",
+            "how much is the fee"
+        ]
+
+        if any(keyword in user_input_clean for keyword in fees_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "fees":
+                    return random.choice(intent["responses"])
+
+
         # Find best matching intent
         best_match, similarity = self.find_best_match(user_input)
         
