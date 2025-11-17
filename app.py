@@ -88,15 +88,16 @@ class HybridChatbot:
                     },
                     {
                         "tag": "admissions",
-                        "patterns": [
-                            "admission", "admission requirements", "how to apply",
-                            "admission process", "eligibility", "admission criteria",
-                            "how to get admission", "admission procedure", "apply for college",
-                            "admission form", "application process"
-                        ],
-                        "responses": [
-                            "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
-                        ]
+            "patterns": [
+                "admission", "admission requirements", "how to apply",
+                "admission process", "eligibility", "admission criteria",
+                "how to get admission", "admission procedure", "apply for college",
+                "admission form", "application process"
+            ],
+            "responses": [
+                "Admissions to the Bachelor of Engineering programs at Acharya Institute of Technology are conducted through KCET, COMEDK, or Management Quota. Candidates must have passed 10 & 12 with Physics and Mathematics as compulsory subjects and obtained a minimum of 65 percent aggregate marks."
+    
+            ]
                     },
                     {
             "tag": "contact",
@@ -106,9 +107,9 @@ class HybridChatbot:
                 "phone", "mobile number", "office number", "location"
             ],
             "responses": [
-                "You can reach Acharya Institute of Technology at Phone plus91 74066 44449 or plus91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Acharya PO Soladevanahalli Bengaluru 560107 Karnataka India.",
-                "Contact details are as follows Phone plus91 74066 44449 or plus91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka India.",
-                "For any enquiries contact Acharya Institute of Technology at plus91 74066 44449 or plus91 97317 97677 or email admissions@acharya.ac.in The campus is located at Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka."
+                "You can reach Acharya Institute of Technology at Phone +91 74066 44449 or +91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Acharya PO Soladevanahalli Bengaluru 560107 Karnataka India.",
+                "Contact details are as follows Phone +91 74066 44449 or +91 97317 97677 Email admissions@acharya.ac.in Address Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka India.",
+                "For any enquiries contact Acharya Institute of Technology at +91 74066 44449 or +91 97317 97677 or email admissions@acharya.ac.in The campus is located at Acharya Dr S Radhakrishnan Road Soladevanahalli Bengaluru 560107 Karnataka."
             ]
         },
                     {
