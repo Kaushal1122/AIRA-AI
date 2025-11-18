@@ -193,6 +193,19 @@ class HybridChatbot:
                 if intent["tag"] == "library_timings":
                     return random.choice(intent["responses"])
                 
+        
+        # Strong keyword-based routing for Facilities
+        facilities_keywords = [
+            "facilities", "facility", "campus facilities", "college facilities",
+            "infrastructure", "amenities", "hostel facilities", "campus facility"
+        ]
+
+        if any(keyword in user_input_clean for keyword in facilities_keywords):
+            for intent in self.intents["intents"]:
+                if intent["tag"] == "facilities":
+                    return random.choice(intent["responses"])
+
+                
         wifi_keywords = ["wifi", "wi fi", "internet"]
         if any(keyword in user_input_clean for keyword in wifi_keywords):
             for intent in self.intents["intents"]:
